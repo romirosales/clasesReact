@@ -3,7 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-
+import HomePage from './pages/HomePage';
+import Ejemplo1 from './pages/Ejemplo1';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <BrowserRouter>
       <Nav/>
       <Routes>
-      {/*} <Route></Route>*/}
+       <Route path='/' element ={<HomePage/>}></Route>*
+       <Route path='/ejemplo1' element ={<Ejemplo1/>}></Route>*
        
       </Routes>
       </BrowserRouter>
