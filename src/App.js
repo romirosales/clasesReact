@@ -5,6 +5,8 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import Ejemplo1 from './pages/Ejemplo1';
+import Ejemplo2 from './pages/Ejemplo2';
+import Mapa from './pages/Mapa';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Routes>
        <Route path='/' element ={<HomePage/>}></Route>*
        <Route path='/ejemplo1' element ={<Ejemplo1/>}></Route>*
+       <Route path='/ejemplo2' element ={<Ejemplo2/>}></Route>*
+       <Route path='/ejemplo3' element ={<Mapa/>}></Route>*
        
       </Routes>
       </BrowserRouter>

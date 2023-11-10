@@ -39,3 +39,7 @@ nav ul li a{
   display: block;
   text-align: center;
 }
+.caja{
+  border: 2px solid black;
+  width: 300px;
+}
